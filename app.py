@@ -108,4 +108,4 @@ def write_results_to_csv(json_file, csv_file):
             writer.writerow(result)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
